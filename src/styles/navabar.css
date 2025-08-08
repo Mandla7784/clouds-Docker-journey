@@ -22,13 +22,13 @@
 }
 
 .navbar {
-  box-shadow: 0px 5px 10px 0px #aaa;
+  box-shadow: 0px 5px 10px 0px #000000;
   position: fixed;
   width: 100%;
-  background: #fff;
-  color: #000;
+  background: #0a0a0a;
+  color: #fffbfb;
   opacity: 0.85;
-  z-index: 100;
+  z-index: 100;top: 0;
 }
 
 .navbar-container {
@@ -54,14 +54,14 @@
 }
 
 .navbar a {
-  color: #444;
+  color: #f8f3f3;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-  color: #117964;
+  color: #298ce9;
 }
 
 @media (max-width: 768px) {
@@ -129,7 +129,7 @@
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: #030303;
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -138,7 +138,7 @@
     margin-left: -40px;
     padding-left: 40px;
     transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px #aaa;
+    box-shadow: 5px 0px 10px 0px #000000;
     overflow: scroll;
   }
 
