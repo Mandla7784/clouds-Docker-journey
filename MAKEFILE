@@ -1,1 +1,15 @@
-Automation
+
+# Makefile for managing the script execution
+
+
+run: index.sh
+	@echo "Running the script..."
+	@bash index.sh
+	@echo "Script execution completed."
+
+
+clean:
+	@echo "Cleaning up..."
+	@rm -f *.log
+	@echo "Cleanup completed."
+.PHONY: clean
